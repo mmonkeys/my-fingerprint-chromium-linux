@@ -47,7 +47,7 @@ jobs:
                   CHROMIUM_VERSION="$(compgen -G "*.src.tar.gz" | grep -Po '([0-9\.]+-[0-9]*)')"
 
                   REGISTRY="ghcr.io/${{ github.repository_owner }}"
-                  NAME="ungoogled-chromium-archlinux"
+                  NAME="my-fingerprint-chromium-linux"
 
                   ID="$(echo $REGISTRY/$NAME | tr '[A-Z]' '[a-z]')"
                   REF="$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')"
