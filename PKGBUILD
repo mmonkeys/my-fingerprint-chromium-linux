@@ -8,7 +8,7 @@
 # Contributor: Jan "heftig" Steffens <jan.steffens@gmail.com>
 # Contributor: Daniel J Griffiths <ghost1227@archlinux.us>
 
-pkgname=ungoogled-chromium
+pkgname=my-fingerprint-chromium
 pkgver=135.0.7049.95
 pkgrel=1
 _launcher_ver=8
